@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<script src="script-2.js"></script>
+</head>
+
+<body id="main">
+    <div class="header">
+        <h1>WELCOME TO OUR ONLINE STORE</h1>
+    </div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="project_one.html">Home</a>
+  <a href="product.html">Shop</a>
+  <a href="#">Sign Up</a>
+  <a href="login.html">Sign In</a>
+  <a href="#">Contact</a>
+  <a href="shop.html">Cart</a>
+</div>
+
+<div id="nav">
+    <ul>
+        <li><a href="project_one.html">Home</a>
+        </li>
+        <li><a href="product.html">Shop</a>
+        </li>
+        <li><a href="signUp.html">Sign Up</a>
+        </li>
+        <li><a href="login.html">Sign In</a>
+        </li>
+        <li><a href="#">Contact</a>
+        </li>
+        <li style="float:right"><a href="shop.html">Cart</a></li>
+    </ul>
+</div>
+
+<span style="font-size:30px;cursor:pointer;color:white;" onclick="openNav()">&#9776;</span>
+
+<div id="w">
+    <header id="title">
+      <h1>Shopping Cart</h1>
+    </header>
+    <div id="page">
+      <table id="cart">
+        <thead>
+          <tr>
+            <th class="first">Photo</th>
+            <th class="second">Qty</th>
+            <th class="third">Product</th>
+            <th class="fourth">Total</th>
+            <th class="fifth">&nbsp;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- shopping cart contents -->
+          <tr class="productitm">
+            <!-- http://www.inkydeals.com/deal/ginormous-bundle/ -->
+            <td><img src="iphone.png" class="thumb"></td>
+            <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+            <td>IPHONE</td>
+            <td>$79.00</td>
+            <td><span class="remove"><img src="https://i.imgur.com/h1ldGRr.png" alt="X"></span></td>
+
+          </tr>
+          <tr class="productitm">
+            <!-- http://www.amazon.com/Stuff-My-Cat-The-Book/dp/0811855384 -->
+            <td><img src="iphone.png" class="thumb"></td>
+            <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+            <td>IPHONE </td>
+            <td>$900.95</td>
+            <td><span class="remove"><img src="https://i.imgur.com/h1ldGRr.png" alt="X"></span></td>
+          </tr>
+          <tr class="productitm">
+            <!-- http://www.amazon.com/SpongeBob-SquarePants-The-First-Episodes/dp/B002DYJTVW -->
+            <td><img src="galaxy.png" class="thumb"></td>
+            <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+            <td>SAMSUNG GLAXY S9</td>
+            <td>$900.00</td>
+            <td><span class="remove"><img src="https://i.imgur.com/h1ldGRr.png" alt="X"></span></td>
+          </tr>
+          <tr class="productitm">
+            <!-- http://www.barnesandnoble.com/w/javascript-and-jquery-david-sawyer-mcfarland/1100405042 -->
+            <td><img src="macbook.png" class="thumb"></td>
+            <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+            <td>MAC BOOK PRO</td>
+            <td>$1600.00</td>
+            <td><span class="remove"><img src="https://i.imgur.com/h1ldGRr.png" alt="X"></span></td>
+          </tr>
+
+          <!-- tax + subtotal -->
+          <tr class="extracosts">
+            <td class="light">Shipping &amp; Tax</td>
+            <td colspan="2" class="light"></td>
+            <td>$35.00</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr class="totalprice">
+            <td class="light">Total:</td>
+            <td colspan="2">&nbsp;</td>
+            <td colspan="2"><span class="thick">$3435.00</span></td>
+          </tr>
+
+          <!-- checkout btn -->
+          <tr class="checkoutrow">
+            <td colspan="5" class="checkout"><button id="submitbtn">Checkout Now!</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+ <div class="footer">
+    &copy; Copyright: 2018 webdev
+    <a target="_blank" href="https://www.linkedin.com/feed/?trk=nav_logo" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-twitter"></a>
+</div>
+  </div>
+</body>
+</html>

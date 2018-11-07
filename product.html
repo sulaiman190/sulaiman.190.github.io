@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<script src="script-2.js"></script>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.grid-container > div {
+  opacity: 0.6;
+  background-color: #ffffff;
+  filter: alpha(opacity=60);
+  text-align: center;
+  padding: 3px 10;
+  font-size: 20px;
+  padding-top: 3px;
+
+}
+.item {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 2px;
+    cursor: pointer;
+}
+p{
+  color: black;
+}
+</style>
+</head>
+
+<body id="main">
+    <div class="header">
+        <h1>WELCOME TO OUR ONLINE STORE</h1>
+    </div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="project_one.html">Home</a>
+  <a href="product.html">Shop</a>
+  <a href="signUp.html">Sign Up</a>
+  <a href="login.html">Sign In</a>
+  <a href="#">Contact</a>
+  <a href="shop.html">Cart</a>
+</div>
+
+<div id="nav">
+    <ul>
+        <li><a href="project_one.html">Home</a>
+        </li>
+        <li><a href="product.html">Shop</a>
+        </li>
+        <li><a href="signUp.html">Sign Up</a>
+        </li>
+        <li><a href="login.html">Sign In</a>
+        </li>
+        <li><a href="#">Contact</a>
+        </li>
+        <li style="float:right"><a href="shop.html">Cart</a></li>
+    </ul>
+</div>
+
+<span style="font-size:30px;cursor:pointer;color:white;" onclick="openNav()">&#9776;</span>
+<br>
+<br>
+<div class="grid-container">
+  <div class="item">
+    <p>IPHONE</p>
+    <img src="iphone.png" alt="iphone" height="200" width="100"><br>
+    <p>$ 900.00</p>
+    <button type="button" style="size: 30px;">Buy</button>
+    </div>
+  <div class="item">
+    <p>IPHONE</p>
+    <img src="iphone.png" alt="iphone" height="200" width="100"><br>
+    <p>$ 900.00</p>
+    <button type="button">Buy</button>
+  </div>
+  <div class="item">
+    <p>IPHONE</p>
+    <img src="iphone.png" alt="iphone" height="200" width="100"><br>
+    <p>$ 900.00</p>
+    <button type="button">Buy</button>
+  </div>
+  <div class="item">
+    <p>IPHONE</p>
+    <img src="iphone.png" alt="iphone" height="200" width="100"><br>
+    <p>$ 900.00</p>
+    <button type="button">Buy</button>
+  </div>
+</div>
+
+<div class="grid-container">
+  <div class="item">
+    <img src="iphone.png" alt="iphone" height="200" width="100"><br>
+    <button type="button" style="size: 30px;">Buy</button>
+    </div>
+  <div class="item">
+    <img src="iphone.png" alt="iphone" height="200" width="100"><br>
+    <button type="button">Buy</button>
+  </div>
+  <div class="item">
+    <img src="iphone.png" alt="iphone" height="200" width="100"><br>
+    <button type="button">Buy</button>
+  </div>
+  <div class="item">
+    <img src="iphone.png" alt="iphone" height="200" width="100"><br>
+    <button type="button">Buy</button>
+  </div>
+</div>
+
+<div class="grid-container">
+  <div class="item">
+    <img src="iphone.png" alt="iphone" height="200" width="100"><br>
+    <button type="button" style="size: 30px;">Buy</button>
+    </div>
+  <div class="item">
+    <img src="iphone.png" alt="iphone" height="200" width="100"><br>
+    <button type="button">Buy</button>
+  </div>
+  <div class="item">
+    <img src="iphone.png" alt="iphone" height="200" width="100"><br>
+    <button type="button">Buy</button>
+  </div>
+  <div class="item">
+    <img src="iphone.png" alt="iphone" height="200" width="100"><br>
+    <button type="button">Buy</button>
+  </div>
+</div>
+
+ <div class="footer">
+    &copy; Copyright: 2018 webdev
+    <a target="_blank" href="https://www.linkedin.com/feed/?trk=nav_logo" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-twitter"></a>
+</div>
+  </div>
+</body>
+</html>

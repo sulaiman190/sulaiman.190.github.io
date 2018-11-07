@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<link rel="stylesheet" href="Sign.css">
+</head>
+
+<body id="main">
+    <div class="header">
+        <h1>WELCOME TO OUR ONLINE STORE</h1>
+    </div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="project_one.html">Home</a>
+  <a href="product.html">Shop</a>
+  <a href="signUp.html">Sign Up</a>
+  <a href="login.html">Sign In</a>
+  <a href="#">Contact</a>
+  <a href="shop.html">Cart</a>
+</div>
+
+<div id="nav">
+    <ul>
+        <li><a href="project_one.html">Home</a>
+        </li>
+        <li><a href="product.html">Shop</a>
+        </li>
+        <li><a href="signUp.html">Sign Up</a>
+        </li>
+        <li><a href="login.html">Sign In</a>
+        </li>
+        <li><a href="#">Contact</a>
+        </li>
+        <li style="float:right"><a href="shop.html">Cart</a></li>
+    </ul>
+</div>
+
+<span style="font-size:30px;cursor:pointer;color:white;" onclick="openNav()">&#9776;</span>
+
+<div class="wrap">
+    <form>
+      <input type="text"name ="yourname"placeholder="Your Name">
+      <input type="email"name ="email"placeholder="Your Email">
+      <input type="number"name ="mnumber"placeholder="Mobile Number">
+      <input type="password"name ="password"placeholder="password">
+      <input type="password"name ="conformpassword"placeholder=""><br><br>
+      <span style ="font-size:18px,">Date of Birth</span>
+
+      <br>
+      <br>
+
+      <select name="DoBmonth">
+        <option value="january">January</option>
+        <option value="february">February</option>
+      </select>
+
+
+        <select name="DoBday">
+            <option> Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">12</option>
+            <option value="12">12</option>
+          </select>
+
+
+          <select name="DoByear">
+              <option>Year</option>
+              <option value="2000">2000</option>
+              <option value="1990">1990</option>
+            </select>
+            <br>
+            <br>
+
+      <br>
+      <input type="checkbox">I agree to The Terms of use
+      <br>
+      <input type="submit" value= "Submit Now">
+
+      </form>
+  </div>
+</body>
+</html>
